@@ -1,4 +1,5 @@
-﻿CPU Cache Performance Benchmarks (C++)
+# CPU Cache Performance Benchmarks (C++)
+
 A C++ project designed to illustrate the massive performance impact of CPU caching and memory access patterns. This repository contains two core benchmarks:
 
 Cache Locality Test: Compares fast Row-Major (cache-friendly) matrix traversal against slow Column-Major (cache-unfriendly) traversal.
@@ -12,4 +13,5 @@ g++ main.cpp -o cache_benchmark -std=c++17 -O3
 
 # Run the benchmark
 ./cache_benchmark
-
+# Output Example
+![Screenshot of an Output for my system after running this program.](https://github.com/MrMetrik/CachePerformance/blob/master/Output.png)
